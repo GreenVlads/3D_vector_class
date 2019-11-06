@@ -1,7 +1,5 @@
 #ifndef _MY_VECTOR_H
 #define _MY_VECTOR_H
-#include "My_vector.h"
-#endif
 
 /* 
 Êëàññ ñ âîçìîæíîñòüþ äàëüíåéøåãî ñîâåðøåíñòâîâàíèÿ,
@@ -58,3 +56,4 @@ Vector Vector::operator- (Vector other) {
 	result.z = this->z - other.z;
 	return result;
 }
+#endif
